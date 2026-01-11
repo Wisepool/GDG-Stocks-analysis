@@ -18,31 +18,9 @@ This helps in making better trading or research decisions.
 4. Creates a numerical sentiment score between -1 and +1  
 5. Builds a News Impact Index  
 6. Ranks stocks based on sentiment  
-7. (Optional) Compares sentiment with stock returns
+7. Compares sentiment with stock returns
 
----
 
-## 📂 Project Structure
-
-```
-quant-news-sentiment/
-│
-├── data/
-│   ├── raw_news.csv
-│   ├── finbert_scored_news.csv
-│   └── finbert_summary.csv
-│
-├── notebooks/
-│   └── news_sentiment_pipeline.ipynb
-│
-├── src/
-│   ├── finbert_inference.py
-│   ├── data_cleaning.py
-│   ├── impact_index.py
-│   └── utils.py
-│
-├── requirements.txt
-└── README.md
 ```
 
 ---
