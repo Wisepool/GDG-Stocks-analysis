@@ -122,11 +122,4 @@ Even when sentiment is broadly negative, **relative rankings** still provide use
 
 ---
 
-## 📁 Repository Structure
-
-├── README.md
-├── requirements.txt
-└── stock.ipynb
-
----
 
