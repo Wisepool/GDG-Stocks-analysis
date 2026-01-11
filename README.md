@@ -20,9 +20,6 @@ This helps in making better trading or research decisions.
 6. Ranks stocks based on sentiment  
 7. Compares sentiment with stock returns
 
-
-```
-
 ---
 
 ## 🧠 How FinBERT Works
@@ -46,75 +43,3 @@ This allows us to measure the sentiment strength for each stock.
 
 To measure the overall sentiment impact of a stock, we compute:
 
-```
-News Impact Index = avg_sentiment * log(1 + news_count)
-```
-
-Higher score → more positive news pressure  
-Lower score → more negative news pressure  
-
----
-
-## 🚀 How To Run
-
-### 1. Install required packages:
-
-```
-pip install -r requirements.txt
-```
-
-### 2. Open the main notebook:
-
-```
-stock.ipynb
-```
-
-### 3. Run cells step-by-step:
-- Load data  
-- Clean data  
-- Run FinBERT  
-- Create sentiment scores  
-- Build impact index  
-- View results  
-
----
-
-## 📊 Example Output
-
-| ticker | avg_sentiment | news_count | news_impact_index |
-|--------|---------------|------------|-------------------|
-| MSFT   | -0.24         | 100        | -1.11             |
-| TSLA   | -0.32         | 99         | -1.50             |
-| GOOGL  | -0.36         | 100        | -1.68             |
-| AAPL   | -0.44         | 100        | -2.05             |
-| AMZN   | -0.44         | 100        | -2.06             |
-
-Even if all are negative, **relative ranking** still gives useful signal.
-
----
-
-## 🎯 Why This Project is Useful
-
-- Helps understand market sentiment  
-- Builds a real quantitative research pipeline  
-- Can be extended with:
-  - price prediction  
-  - event classification  
-  - live news ingestion  
-- Great project for resumes and interviews  
-
----
-
-## 📝 Notes
-
-- FinBERT works offline using PyTorch  
-- No API keys required  
-- Dataset must contain at least a `headline` and `ticker` column  
-
----
-
-## 🙌 Future Improvements
-
-- Add price-based backtesting  
-- Add event categories (earnings, product launch, etc.)  
-- Deploy as a Streamlit dashboard  
