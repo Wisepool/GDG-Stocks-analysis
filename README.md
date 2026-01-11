@@ -88,7 +88,7 @@ pip install -r requirements.txt
 ### 2. Open the main notebook:
 
 ```
-notebooks/news_sentiment_pipeline.ipynb
+stock.ipynb
 ```
 
 ### 3. Run cells step-by-step:
