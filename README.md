@@ -126,17 +126,7 @@ Even when sentiment is broadly negative, **relative rankings** still provide use
 
 ├── README.md
 ├── requirements.txt
-├── stock.ipynb
-├── news.csv
-├── news_with_sentiment.csv
-└── news_sentiment_summary.csv
-
-yaml
-Copy code
+└── stock.ipynb
 
 ---
-
-## 📬 Contact
-
-For improvements, issues, or contributions — feel free to open a Pull Request or Issue.
 
